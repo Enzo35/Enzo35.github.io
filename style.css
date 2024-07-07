@@ -2,14 +2,6 @@
     text-align: center;
 }
 
-@font-face {
-    font-family: 'sourcesanspro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
-  }
-
 html, body {
   margin: 0;
   min-height: 100%;
