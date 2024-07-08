@@ -1,7 +1,11 @@
+/*
 * {
     text-align: center;
 }
+*/
 
+
+/* MADE WITH PENPOT */
 html, body {
   margin: 0;
   min-height: 100%;
@@ -33,59 +37,57 @@ body {
   z-index: 0;
 }
 
-/* Site Pessoal de Enzo */
-.site-pesso-9eca61f7101a {
+/* Rectangle */
+.rectangle-a02db0b6d611 {
   position: absolute;
-  left: 581px;
-  top: 38px;
-  width: 610px;
-  height: 86px;
-}
-.site-pesso-9eca61f7101a .root-0 {
-  
-  
-  display: flex;
-  white-space: break-spaces;
-  align-items: flex-start;
-}
-.site-pesso-9eca61f7101a .root-0-paragraph-set-0 {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: inherit;
-  min-width: 100%;
-  margin-right: 1px;
-  vertical-align: top;
-}
-.site-pesso-9eca61f7101a .root-0-paragraph-set-0-paragraph-0 {
-  font-size: 0;
-  line-height: 1.2;
-  margin: 0;
-  text-align: center;
-}
-.site-pesso-9eca61f7101a .root-0-paragraph-set-0-paragraph-0-text-0 {
-  color: rgba(0, 0, 0, 1);
-  text-transform: unset;
-  
-  line-break: auto;
-  overflow-wrap: initial;
-  white-space: break-spaces;
-  text-rendering: geometricPrecision;
-  caret-color: rgba(0, 0, 0, 1);
-  text-decoration: none;
-  letter-spacing: 0px;
-  font-size: 72px;
-  font-family: "sourcesanspro";
-  font-style: normal;
-  font-weight: 400;
+  left: 1034px;
+  top: 215px;
+  width: 525px;
+  height: 399px;
+  background: #0B7285;
+  border: 5px solid #000000;
+  border-radius: 0px;
+  box-shadow: -5px -5px 4px 0px rgba(0, 0, 0, 0.2), 5px 5px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* Rectangle */
-.rectangle-9eca30775087 {
+.rectangle-a02d8aea4247 {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1920px;
-  height: 160px;
-  background: #B1B2B5;
+  left: 1315px;
+  top: 683px;
+  width: 316px;
+  height: 162px;
+  background: #1C7ED6;
+  border: 3px solid #000000;
   border-radius: 0px;
+  box-shadow: -20px 15px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Rectangle */
+.rectangle-a02d86229ba3 {
+  position: absolute;
+  left: 964px;
+  top: 683px;
+  width: 316px;
+  height: 162px;
+  background: #1864AB;
+  border: 3px solid #000000;
+  border-radius: 0px;
+  box-shadow: -20px 15px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Ellipse */
+.ellipse-a02d668bb64c > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-66px,-66px);
+}
+.ellipse-a02d668bb64c {
+  position: absolute;
+  left: 289px;
+  top: 140px;
+  width: 640px;
+  height: 624px;
+  border-radius: 50%;
 }
