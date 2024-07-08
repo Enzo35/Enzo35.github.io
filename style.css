@@ -30,8 +30,6 @@ body {
 /* Board */
 .board-9ec9b9f5525a {
   position: relative;
-  width: 1920px;
-  height: 1080px;
   background: #868E96;
   overflow: hidden;
   z-index: 0;
