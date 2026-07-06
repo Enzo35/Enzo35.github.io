@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Site Com Materialize</title>
+        <title>Portifolio Enzo Gusmão</title>
+
+        <link rel="stylesheet" href="styles.css">
 
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -20,199 +22,21 @@
 
     </head>
 
-    <body>
+    <body id="body_id">
 
-        <nav>
-            <div class="nav-wrapper">
-                # Portifolio / Curriculo
-                <ul class="right">
-                <li>
-                    <a class="btn waves-effect waves-light" href="#Contato">
-                        <i class="material-icons">contacts</i>
-                    </a>
-                </li>
-                <li> <!-- TO-DO adcionar capacidade de baixar curriculo-->
-                    <a class="btn waves-effect waves-light" href="#">
-                        <i class="material-icons">cloud_download</i>
-                    </a>
-                </li>
-            </ul>
+      <nav>
+      <div class="nav-wrapper nav_linear">
+        <a href="#" class="brand-logo" style="margin-left: 5%;">Portifolio</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">TODO-DOWNLOWAD_RESUME</a></li>
+          <li><a href="badges.html">TODO_GOTO_TECHSTACK</a></li>
+          <li><a href="collapsible.html">TODO-GOTO-EXperience</a></li>
+        </ul>
+      </div>
+    </nav>
 
-            </div>
-
-        </nav>
-
-        <br>
-
-        <div class="container">
-
-            <div class="card horizontal row blue ">
-                <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1565021324739-7493c5a74a13?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class=" circle responsive-img center-align" alt="Foto de Enzo Gusmão"/>
-                </div>
-
-                <div class="stacked"></div>
-
-                <div class="card-content valign-wrapper">
-                    <div class="col s12 m4 l1">
-                        <img src="Foto.jpg" class=" circle responsive-img center-align" alt="Foto de Enzo Gusmão"/>
-                    </div>
-
-                    <div class="col s12 m8 l10 ">
-                        <h1 class="">
-                            Enzo Gusmão Bezerra Assad
-                        </h1>
-                        <span class="new badge" data-badge-caption="Anos">25</span>
-                    </div>
-
-                    <div class="col m3 l2 hide-on-med-and-down">
-                        <ul class="section table-of-contents" style="padding-left: 150px; padding-bottom: 100px;">
-                            <li><a href="#Contato">Contatos</a></li>
-                            <li><a href="#Experiencia">Experiências</a></li>
-                            <li><a href="#Qualificacao">Qualificações</a></li>
-                            <li><a href="#Idiomas">Idiomas</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="container width=25%">
-                
-                <div class="video-container center-align ">
-                    <iframe src="https://youtube.com/embed/8mAITcNt710" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="divider"></div>
-
-            <div class="section scrollspy" id="Contato">
-
-
-                <h5 class="center-align">Contatos</h5>
-
-                <button class="btn-floating scale-transition pulse">
-                    <a href="mailto:enzogusb@outlook.com">
-                        <i class="material-icons">email</i>
-                    </a>
-                </button>
-                <span>Email: enzogusb@outlook.com</span>
-
-                <br><br>
-
-                <button class="btn-floating scale-transition pulse">
-                    <a href="https://www.linkedin.com/in/enzogba/">
-                        <i class="material-icons">
-                            link
-                        </i>
-                    </a>
-                </button>
-                <span>Linkedin: https://www.linkedin.com/in/enzogba/</span>
-
-            </div>
-
-            <div class="divider"></div>
-
-            <div class="section scrollspy" id="Experiencia">
-
-                <h3 class="center-align">Experiências</h3>
-
-                <ul class="collapsible popout ">
-
-                    <li>
-                        <div class="collapsible-header">
-                            <h5 class="center-align">Especialista relacionamento com cliente I - ATENTO BRASIL,<br> SALVADOR-BA</h5>
-                            <p>12/2024 - 02/2026</p>
-                    </div>
-                    <div class="collapsible-body">
-                            <div class="row">
-                                <div class="col s12">Diagnóstico e resolução de problemas técnicos.</div>
-                                <div class="col s12">Suporte técnico remoto para clientes B2B.</div>
-                                <div class="col s12">Coleta, acompanhamento e visualização de dados de KPI.</div>
-                                <div class="col s12">Registro, organização e acompanhamento de chamados técnicos.</div>
-                                <div class="col s12">Agendamento de visitas técnicas e suporte ao cliente corporativo.</div>
-                            </div>
-                            <p>Tecnologias e habilidades aplicadas: Suporte técnico,Troubleshooting, Atendimento B2B, Gestão de chamados.</p>
-                    </div>
-                    </li>
-
-                    <li>
-                        <div class="collapsible-header">
-                            <h5 class="center-align">Estagiário: Desenvolvimento de Aplicativos - MINISTÉRIO PÚBLICO DO ESTADO DA BAHIA (MP BA), SALVADOR-BA</h5>
-                            <p>08/2022 - 10/2023</p>
-                        </div>
-                        <div class="collapsible-body">
-                            <div class="row">
-                                <div class="col s12">Automação de processos utilizando Power Automate.</div>
-                                <div class="col s12">Desenvolvimento de aplicações utilizando Microsoft Power Apps.</div>
-                                <div class="col s12">Desenvolvimento de scripts com Office Scripts (TypeScript).</div>
-                                <div class="col s12">Criação de aplicativo utilizado por fiscais para coleta e consolidação de relatórios mensais.</div>
-                            </div>
-                            <p>Tecnologias utilizadas: Power Apps, Power Automate, TypeScript, Excel, Automação de processos.</p>
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <div class="divider"></div>
-
-            <div class="section scrollspy" id="Qualificacao">
-
-                <h3 class="center-align">Qualificações</h3>
-
-                <h5 class="center-align">Especialização interrompida em 2025 em Residência Tecnológica em Desenvolvimento de Software para o Setor Automotivo.
-                    <br>Universidade Federal de Pernambuco, UFPE, Brasil.</h5>
-                <p class="center-align">2024 - Interrompida</p>
-                <h5 class="center-align">Graduação em ENGENHARIA DA COMPUTAÇÃO.
-                    <br>Faculdade Ruy Barbosa, FRB, Brasil.</h5>
-                <p class="center-align">2019 - 2024</p>
-            </div>
-
-            <div class="divider"></div>
-        
-            <div class="section scrollspy" id="Idiomas">
-                <h3 class="center-align">Idiomas</h3>
-                <table class="highlight responsive-table">
-                    <tr>
-                        <th>Português</th>
-                        <th>Nativo</th>
-                    </tr>
-                    <tr>
-                        <th>Inglês</th>
-                        <th>Avançado</th>
-                    </tr>
-                </table>
-            </div>
-
-            <ul class="collection with-header black">
-                <li class="collection-header">Outras Atividades:</li>
-                <li class="collection-item black">
-                    <a href="https://www.codewars.com/users/Enzo35">Code Wars</a>
-                </li>
-                <li class="collection-item black">
-                    <a href="https://www.freecodecamp.org/Enzo35">FreeCodeCamp</a>
-                </li>
-            </ul>
-
-        </div>
-
-        <!--JavaScript at end of body for optimized loading-->
-        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-
-
-
-        <script>
-            $(document).ready(function () {
-                    $('.collapsible').collapsible();
-                    $('.scrollspy').scrollSpy();
-                });
-                
-        </script>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
     </body>
 </html>
