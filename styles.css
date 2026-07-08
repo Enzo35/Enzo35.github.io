@@ -10,3 +10,10 @@
 .nav_linear {
   background: repeating-linear-gradient( -45deg, #26a69a 40px 60px, #263238);
 }
+
+
+/* doesnt work, set height in html doc
+.tech_stack_svg {
+  height: 20px;
+}
+  */
