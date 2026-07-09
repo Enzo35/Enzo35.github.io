@@ -50,3 +50,67 @@ svg {
 #presentation_card {
   offset-distance: 50px;
 }
+
+/*Preloader*/
+
+:root {
+  --base-100: #718d9b;
+  --base-200: #495b64;
+  --base-300: #495b64;
+  --base-400: #263238; 
+  --base-500: #26a69a;
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100svh;
+  color: var(black);
+  overflow: hidden;
+  z-index: 2;
+}
+
+.preloader_bg,
+.preloader_revealer {
+  position: absolute;
+  width: 100%;
+  height: 100svh;
+  transform-origin: center;
+}
+
+.preloader_bg {
+  background-color: black;
+}
+
+.preloader_revealer {
+  clip-path: circle(0% at 50% 50%);
+  will-change: clip-path;
+}
+
+.preloader_revealer_1 {
+  background-color: var(--base-100);
+}
+
+.preloader_revealer_2 {
+  background-color: var(--base-200);
+}
+
+.preloader_revealer_3 {
+  background-color: var(--base-300);
+}
+
+.preloader_revealer_4 {
+  background-color: var(--base-400);
+}
+
+/*/*/
+
+.green {
+  background: green;
+}
+
+.box {
+  display: block;
+  height: 75px;
+  width: 75px;
+}

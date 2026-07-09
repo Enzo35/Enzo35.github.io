@@ -53,12 +53,25 @@
           padding-bottom: 10%;
         }
 
+        .card
+
       </style>
 
 
     </head>
 
     <body class="linear_gradient">
+
+      <div class="preloader">
+        <!--
+        <div class="preloader_bg"></div>
+        -->
+        <div class="preloader_revealer preloader-revealer-1"></div>
+        <div class="preloader_revealer preloader-revealer-2"></div>
+        <div class="preloader_revealer preloader-revealer-3"></div>
+        <div class="preloader_revealer preloader-revealer-4"></div>
+        
+      </div>
 
       <nav>
         <div class="nav-wrapper nav_linear">
@@ -70,6 +83,8 @@
           </ul>
         </div>
       </nav>
+
+      <div class="box green"></div>
 
       <main class="container">
 
@@ -285,6 +300,12 @@
 
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+      <!--Include Gsap-->
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+
+      <!--Custom JavaScript-->
+      <script type="module" src="/script.js"></script>
 
     </body>
 </html>
